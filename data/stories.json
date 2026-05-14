@@ -1,0 +1,1123 @@
+{
+  "blacksmith": {
+    "display_name": "Blacksmith",
+    "intro_title": "The Blacksmith",
+    "starting_node": "blacksmith_start",
+    "nodes": {
+      "blacksmith_start": {
+        "id": "blacksmith_start",
+        "date": "A.D. 89",
+        "text": "You are born in a poor village in central Italy.\nYou are the second son, the fourth child.\nThe poor land of your father cannot support all of you.",
+        "image": null,
+        "next_node": "blacksmith_100",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_100": {
+        "id": "blacksmith_100",
+        "date": "A.D. 100",
+        "text": "Your parents discussed.\nStaying is not an option for you.\nOstia is where you will be sent.\nNot quite an opportunity.\nYou did not know what you would be facing.\nYou can’t blame your family.\nThe extra mouth is a burden.\nYou kept your tears.\nYou farewell your family.\nYou step on your own journey at the age of 11.",
+        "image": null,
+        "next_node": "blacksmith_101",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_101": {
+        "id": "blacksmith_101",
+        "date": "A.D. 101",
+        "text": "It feels like humiliation.\nYou carry charcoal.\nYou work the bellows.\nYou scoop water.\nAll these dirty works.\nYou obey, obey, and obey.",
+        "image": null,
+        "next_node": "blacksmith_103",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_103": {
+        "id": "blacksmith_103",
+        "date": "A.D. 103",
+        "text": "You are blessed.\nYour master values your diligence.\nLuckily, you are smart enough.\nYou learn to hold tongs.\nYou read heat by color.\nYou have a chance to craft small things.\nA lock, a tool, a door hinge.\nYou enjoyed this.",
+        "image": null,
+        "next_node": "blacksmith_104",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_104": {
+        "id": "blacksmith_104",
+        "date": "A.D. 104",
+        "text": "You worship Vulcan.\nYou joined Vulcanalia.\nYou learned to pray.\nHe will bless you.",
+        "image": null,
+        "next_node": "blacksmith_105",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_105": {
+        "id": "blacksmith_105",
+        "date": "A.D. 105",
+        "text": "You are trusted more.\nYou realized.\nAny mistakes, misses, or wrong timing cost your master.\nYou are talented.\nYou never miss.",
+        "image": null,
+        "next_node": "blacksmith_106",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_106": {
+        "id": "blacksmith_106",
+        "date": "A.D. 106",
+        "text": "Trajan’s victory brought opportunities.\nThey want ironworks.\nThey want too much, so you see a chance.\nOver the years, you learned skills.\nHow to craft, how to repair, how to adjust.\nYou earned freedom with your savings.\nYour master looked at you with pride.\nBut also with some worry.\nYou established your own blacksmith.\nFor the first time, your labor brings gold to your own pocket.",
+        "image": null,
+        "next_node": "blacksmith_109",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_109": {
+        "id": "blacksmith_109",
+        "date": "A.D. 109",
+        "text": "You expanded your shop.\nYou would do anything.\nYou fit wagons, make tools, craft swords.\nYou wouldn’t know how much blood your sword will touch.\nYou wouldn’t care.\nYou didn’t know how your family was.\nYou didn’t know whether to hate them or appreciate them.",
+        "image": null,
+        "next_node": "blacksmith_112",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_112": {
+        "id": "blacksmith_112",
+        "date": "A.D. 112",
+        "text": "You embraced your first apprentice.\nYou see yourself in his immature face.\nYou were stunned for a second.\nWhen he was sent by his family.\nA different feeling emerges inside you.\nA little bit bitter, a little bit sad.\nYou decide to treat him:",
+        "image": null,
+        "next_node": null,
+        "choices": [
+          {
+            "label": "Like how your master treats you",
+            "next_node": "blacksmith_master_path_114"
+          },
+          {
+            "label": "Like he is your son",
+            "next_node": "blacksmith_son_path_114"
+          }
+        ],
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_master_path_114": {
+        "id": "blacksmith_master_path_114",
+        "date": "A.D. 114",
+        "text": "He learned quickly, even better than you.\nHe learned how to read color.\nHe learned how to finish a blade.\nYou still sent labor work, the dirty one, to him.\nYou see him sweating, suffering, but never complaining.\nYou felt a little uneasy.\nYou shook away that thought.\nYou kept working on the immersive orders.",
+        "image": null,
+        "next_node": "blacksmith_master_path_121",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_master_path_121": {
+        "id": "blacksmith_master_path_121",
+        "date": "A.D. 121",
+        "text": "He left, as you did when you were young.\nHe opened a shop right across from you.\nYou didn’t worry, because half of his shop belongs to you, too.\nYou did less and less work.\nNo more blades, no more wagons, just some casual things only.",
+        "image": null,
+        "next_node": "blacksmith_master_path_129",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_master_path_129": {
+        "id": "blacksmith_master_path_129",
+        "date": "A.D. 129",
+        "text": "You felt the furnace smoke in your lungs.\nIt burns.\nYou can no longer lift, you can no longer craft.\nYou felt death near you.",
+        "image": null,
+        "next_node": "blacksmith_master_path_130",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_master_path_130": {
+        "id": "blacksmith_master_path_130",
+        "date": "A.D. 130",
+        "text": "Your student buries you.\nYou have no family, no children, no one.\nHe puts a hammer next to you.\nHe blesses you with the honor of Vulcan.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "blacksmith_legacy_ending"
+      },
+      "blacksmith_son_path_114": {
+        "id": "blacksmith_son_path_114",
+        "date": "A.D. 114",
+        "text": "You gave him some dirty work, but not that much.\nYou didn’t use him as your master used you.\nYou taught him skills.\nHow to read fire.\nHow to read timing.\nHow to craft pieces.\nYou sometimes see a smile on his face.\nThat’s what was not on you.",
+        "image": null,
+        "next_node": "blacksmith_son_path_116",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_son_path_116": {
+        "id": "blacksmith_son_path_116",
+        "date": "A.D. 116",
+        "text": "He learned quickly, really quickly.\nHe has even more talent than you do.\nHe crafts better than you.\nFaster, neater, stronger.\nYou gave your trust in him.",
+        "image": null,
+        "next_node": "blacksmith_son_path_120",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_son_path_120": {
+        "id": "blacksmith_son_path_120",
+        "date": "A.D. 120",
+        "text": "You work less and less.\nHe stayed at your shop.\nHe works with passion.\nHe enjoyed crafting.",
+        "image": null,
+        "next_node": "blacksmith_son_path_121",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_son_path_121": {
+        "id": "blacksmith_son_path_121",
+        "date": "A.D. 121",
+        "text": "You stopped crafting.\nYou work with numbers.\nYou are backing up.",
+        "image": null,
+        "next_node": "blacksmith_son_path_125",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_son_path_125": {
+        "id": "blacksmith_son_path_125",
+        "date": "A.D. 125",
+        "text": "Illness and furnace smoke didn’t catch you like other experienced masters.\nYou sometimes still wander in your store, but you no longer work.\nHe worked well, really well.\nYou see him taking apprentices and treating them well.\nYou felt accomplished.\nIt’s like seeing your son having a family.\nYou felt pride.",
+        "image": null,
+        "next_node": "blacksmith_son_path_130",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "blacksmith_son_path_130": {
+        "id": "blacksmith_son_path_130",
+        "date": "A.D. 130",
+        "text": "With the blessing of Vulcan, you closed your eyes.\nHe hosts your burial.\nWith respect, with gratitude, and with love.\nHe put aside your hammer.\nYour name stays with your store forever.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "blacksmith_craft_with_love_ending"
+      }
+    }
+  },
+  "builder": {
+    "display_name": "Builder",
+    "intro_title": "The Builder",
+    "starting_node": "builder_start",
+    "nodes": {
+      "builder_start": {
+        "id": "builder_start",
+        "date": "A.D. 86",
+        "text": "You are born in a small house on the edge of the city.\nYour father is a farmer.\nThe grain of his work only allows your family not to starve.",
+        "image": null,
+        "next_node": "builder_95",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_95": {
+        "id": "builder_95",
+        "date": "A.D. 95",
+        "text": "You show strength as a boy.\nYou help your father in the field.\nCarrying water, plowing dirt, planting seeds.\nYou also help your uncle build things.\nCarrying stones, concrete, and heavy weights.",
+        "image": null,
+        "next_node": "builder_100",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_100": {
+        "id": "builder_100",
+        "date": "A.D. 100",
+        "text": "Your uncle once needed your help building a room for school.\nYou look at the children learning letters by teachers.\nYou couldn’t understand the signs.\nYou couldn’t understand words.\nThese seem privileges to you.\nWhat you learn is how to lift, how to build, taught by your uncle.",
+        "image": null,
+        "next_node": "builder_103",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_103": {
+        "id": "builder_103",
+        "date": "A.D. 103",
+        "text": "You learned some techniques.\nMostly about materials, building balance, or fitting things in.\nThose small skills make you worth slightly more.\nStill, you are paid little, but what can you do?",
+        "image": null,
+        "next_node": "builder_111",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_111": {
+        "id": "builder_111",
+        "date": "A.D. 111",
+        "text": "You worked in many buildings.\nBut those don’t belong to you.\nThey pay you just enough to live, but sometimes you starve too.\nYou could never earn enough to stop working.\nBecause that’s how Rome works.",
+        "image": null,
+        "next_node": "builder_116",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_116": {
+        "id": "builder_116",
+        "date": "A.D. 116",
+        "text": "You enjoyed drinking.\nYou find it fun in thermopolia.\nYou couldn’t join the table of small gamble.\nBecause you know the money is for your stomach.",
+        "image": null,
+        "next_node": "builder_124",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_124": {
+        "id": "builder_124",
+        "date": "A.D. 124",
+        "text": "Your body starts to tell you to stop.\nYour shoulders ache, and you move slow.\nYou are not that old.\nBut age starts killing you.",
+        "image": null,
+        "next_node": "builder_137",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_137": {
+        "id": "builder_137",
+        "date": "A.D. 137",
+        "text": "You meet a younger laborer.\nHe follows you for work.\nYou showed him how to lift with less effort.\nYou showed him how to align for good.\nBut for yourself, you sense something bad.",
+        "image": null,
+        "next_node": "builder_138",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "builder_138": {
+        "id": "builder_138",
+        "date": "A.D. 138",
+        "text": "You are too old to lift.\nYou are too old to work.\nYou are too old to live.\nThe last night you spent was in thermopolia.\nYou get an extra drink.\nYou sleep on the road.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "builder_rome_stepping_stone_ending"
+      }
+    }
+  },
+  "gladiator": {
+    "display_name": "Gladiator",
+    "intro_title": "The Fighter",
+    "starting_node": "fighter_start",
+    "nodes": {
+      "fighter_start": {
+        "id": "fighter_start",
+        "date": "83 B.C.",
+        "text": "You are born into a family in a small tribe.\nYour mother luckily did not die during childbirth.\nYour father, looking at you as a boy, laughed from the bottom of his heart.\nYou heard him talking to people around him.\nYou don’t understand what he was saying, but you can see the pride in his eyes.",
+        "image": null,
+        "next_node": "fighter_80",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_80": {
+        "id": "fighter_80",
+        "date": "80 B.C.",
+        "text": "You can barely talk; the old man in the tribe taught you words.\nYou enjoyed it.\nOne day, you run into your father’s meeting.\nYou see his face frowning, and you hear some words.\nYou didn’t fully understand, but you see the anger in his eyes.",
+        "image": null,
+        "next_node": "fighter_76",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_76": {
+        "id": "fighter_76",
+        "date": "76 B.C.",
+        "text": "Your tribe was invaded.\nYour father, teacher, cousins, and most people you know have died.\nYou see them pierced by arrows, or chopped by swords, all covered in blood.\nYou see your mother lying on the ground, facing down.\nYou nudged her arm, trying to wake her up.\nYou see something shiny on your left.\nYou lift your head up, and you see a Roman soldier.\nHe pointed his spear at you, and you looked him in the eye.\nHe put his shield down and picked you up by your neck.\nYou didn’t cry.\nYou were brought to the Roman troops.",
+        "image": null,
+        "next_node": "fighter_75",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_75": {
+        "id": "fighter_75",
+        "date": "75 B.C.",
+        "text": "Your year in the Roman army wasn’t easy.\nYou belong to calones.\nYou need to carry wood for their needs and do all the dirty work.\nThey yell, they whip, and you see a traitor, your “friend” in calones, died midway through his escape.",
+        "image": null,
+        "next_node": "fighter_74",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_74": {
+        "id": "fighter_74",
+        "date": "74 B.C.",
+        "text": "They brought you back to Rome.\nIt is a huge city, and you see houses twice as big as the one you lived in.\nYou are auctioned.\nYou stand on the stage, naked.\nThe merchants examine you, one by one.\nYou felt their touches, and you closed your eyes.\nYou felt stabbing pain in your neck.\nYou opened your eyes, and you are picked.\nThe merchant fancied your muscles.\nHe handed you a piece of bread and told you to be a gladiator.\nYou listened to him bragging, while wolfing down the piece of bread, you needed it.\nYou are sent to the gladiatorial school.",
+        "image": null,
+        "next_node": "fighter_73_choice",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_73_choice": {
+        "id": "fighter_73_choice",
+        "date": "73 B.C.",
+        "text": "Capua.\n\nYou see many men here.\nGauls, Thracians, and many from different places.\nSome are fierce, some are violent, some only want blood.\nYou began training.\nA wooden sword and a crappy shield are all you have.\nYou were undefeated.\nOf course you were, or otherwise you would not be alive.\nYou meet friends, true friends, the ones you trained with.\nBut you also know, at some time, only one of you will die.\nAmong your friends, one is named Spartacus.\nHe whispered:\n“Do you hate?”",
+        "image": null,
+        "next_node": null,
+        "choices": [
+          {
+            "label": "Yes",
+            "next_node": "fighter_rebellion_73"
+          },
+          {
+            "label": "No",
+            "next_node": "fighter_school_72"
+          }
+        ],
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_rebellion_73": {
+        "id": "fighter_rebellion_73",
+        "date": "73 B.C.",
+        "text": "Your plots are discovered.\nThere's no more time.\nYou all grabbed whatever you could.\nKitchen knives, spits, sticks.\nYou killed your way out.\nYou all climbed to Versius.\nYou are all surrounded by Roman troops.\nThey tried to trap you all with hunger, thirst, and fear.\nYou descend a wild vine rope, sending warriors down to the Roman troops at night.\nYou all destroyed the camp.\nYou see one of the captive familiar.\nMemory stroke you 10 years ago.\nHe was the one pushing a dagger into your mom’s heart.\nHe begged you for mercy.\n“I’m not Roman, I’m forced to be in the army.”\nYou grasped your dagger, and your arm started shaking.\nYou cut his throat.",
+        "image": null,
+        "next_node": "fighter_rebellion_72",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_rebellion_72": {
+        "id": "fighter_rebellion_72",
+        "date": "72 B.C.",
+        "text": "The leaders do not all agree.\nYou followed Spartacus for the passion in his eyes.\nCrixus, a dear leader in the rebellion, is killed.\nYou honor him, but you see your future on his dead body.",
+        "image": null,
+        "next_node": "fighter_rebellion_71_choice",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_rebellion_71_choice": {
+        "id": "fighter_rebellion_71_choice",
+        "date": "71 B.C.",
+        "text": "Marcus Licinius Crassus took over the Roman troops.\nYou felt the war with them tighter, harder, and colder.\nThe final battle comes.\nBefore it began, Spartacus killed his horse.\nIf you all win, he shall gain a better one.\nIf you all lose, he will need no one.\nNo one is leaving this field alive.\nYou clenched your dagger, the one accompanied you since the start.\nYou rush toward the Romans with your friends.",
+        "image": null,
+        "next_node": null,
+        "choices": [
+          {
+            "label": "Fight till the end",
+            "next_node": "fighter_legend_ending"
+          },
+          {
+            "label": "Kneel to Rome",
+            "next_node": "fighter_coward_ending"
+          }
+        ],
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_legend_ending": {
+        "id": "fighter_legend_ending",
+        "date": "71 B.C.",
+        "text": "You fight till the end.\nYour body is covered with blood.\nIt was an honor.\nYou are not a failure.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "fighter_legend_ending"
+      },
+      "fighter_coward_ending": {
+        "id": "fighter_coward_ending",
+        "date": "71 B.C.",
+        "text": "You feared.\nYou dropped your armor.\nYou kneeled to Rome.\nThey nailed you on the cross.\nThe traitors were shown to the public on the street.\nThe cowards were humiliated.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "fighter_coward_ending"
+      },
+      "fighter_school_72": {
+        "id": "fighter_school_72",
+        "date": "73 B.C.",
+        "text": "You stay inside the wall.\nYou fear danger, though now you are still facing it.\nSoon after, you are sold.\nNew yard, new trainer, same life.",
+        "image": null,
+        "next_node": "fighter_school_72_training",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_school_72_training": {
+        "id": "fighter_school_72_training",
+        "date": "72 B.C.",
+        "text": "Wooden sword, broken shield.\nAgain and again.\nYou grow heavy and strong.\nYou kill more and more.\nPeople applaud for the blood on your sword.",
+        "image": null,
+        "next_node": "fighter_school_71",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_school_71": {
+        "id": "fighter_school_71",
+        "date": "71 B.C.",
+        "text": "Your trainer shared the bad news.\nSpartacus died with his brothers.\nYou mourn for him; the school didn’t.\nYou restored.\nPicking up the sword and shield.\nRome fears the rebels, but the game still goes on.",
+        "image": null,
+        "next_node": "fighter_school_70",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_school_70": {
+        "id": "fighter_school_70",
+        "date": "70 B.C.",
+        "text": "You are no legend.\nWinning gives you nothing.\nBesides scars and wounds.\nYou saw friends never getting up.\nYou see newcomers thrown in.",
+        "image": null,
+        "next_node": "fighter_school_67",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_school_67": {
+        "id": "fighter_school_67",
+        "date": "67 B.C.",
+        "text": "The wounds are a burden.\nThey hurt, but the fear of death hurts more.\nAll the faces in blood appeared at night.\nThe next one could be your last one.",
+        "image": null,
+        "next_node": "fighter_school_66",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "fighter_school_66": {
+        "id": "fighter_school_66",
+        "date": "66 B.C.",
+        "text": "You stand in the amphitheater.\nA man standing on the opposite side.\nHe is younger, has no injuries, and is stronger.\nYou barely blocked his swing.\nYour attack is no longer sharpened.\nHe knocked off your shield.\nYou see his blade piercing through your chest.\nYou fell.\nThe crowd curses.\nThe crowd yells.\nYou closed your eyes.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "fighter_warrior_ending"
+      }
+    }
+  },
+  "merchant": {
+    "display_name": "Merchant",
+    "intro_title": "The Trader",
+    "starting_node": "trader_start",
+    "nodes": {
+      "trader_start": {
+        "id": "trader_start",
+        "date": "110 B.C.",
+        "text": "You are born in a town south of Rome.\nYou will not starve, but there isn’t spare in your family.",
+        "image": null,
+        "next_node": "trader_100",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_100": {
+        "id": "trader_100",
+        "date": "100 B.C.",
+        "text": "You start working as a boy.\nYou carry sacks.\nYou load carts.\nYou earn what you want.\nAs your father cannot give them to you.",
+        "image": null,
+        "next_node": "trader_96",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_96": {
+        "id": "trader_96",
+        "date": "96 B.C.",
+        "text": "Your father taught you how to accumulate wealth.\nYou learned how to contain your desire.\nYou learn how wealth works.\nThe more you accumulate, the more you can play with it.",
+        "image": null,
+        "next_node": "trader_92",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_92": {
+        "id": "trader_92",
+        "date": "92 B.C.",
+        "text": "You started your “business.”\nYou buy produce from the cheap.\nYou carry it to where it sells better.\nOil, fish, cloth, tools.\nYou are not yet a great merchant.\nYou earn little or nothing most of the time.\nYour father supports you, not financially, but mentally.",
+        "image": null,
+        "next_node": "trader_88",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_88": {
+        "id": "trader_88",
+        "date": "88 B.C.",
+        "text": "War and unease threaten your trade.\nRoads are less safe.\nPrices are unstable.\nA bad decision costs you months of gain.\nYou learn risks.\nYou learn profit.",
+        "image": null,
+        "next_node": "trader_84",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_84": {
+        "id": "trader_84",
+        "date": "84 B.C.",
+        "text": "You become more cautious.\nYou suppress your ambition.\nYou distinguish between gambling and trading.",
+        "image": null,
+        "next_node": "trader_80",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_80": {
+        "id": "trader_80",
+        "date": "80 B.C.",
+        "text": "You have enough to run an actual business.\nYou hire transport.\nYou bargain with scale.\nYou deal with people directly.\nYou are part of the business.\nYour decision matters.",
+        "image": null,
+        "next_node": "trader_76",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_76": {
+        "id": "trader_76",
+        "date": "76 B.C.",
+        "text": "You start actions in Rome.\nThe city is the challenge.\nThe scale scares you.\nWhat was big for the town can’t even be seen by Rome.",
+        "image": null,
+        "next_node": "trader_75",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_75": {
+        "id": "trader_75",
+        "date": "75 B.C.",
+        "text": "You learned more about business.\nIn Rome, reputation is all.\nRelationships and trust didn’t come from nowhere.\nYou sometimes get nowhere.\nBut you are patient enough.",
+        "image": null,
+        "next_node": "trader_72",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_72": {
+        "id": "trader_72",
+        "date": "72 B.C.",
+        "text": "You stand firm in the city.\nYou understand what is essential in Rome.\nFood, transport, supply.\nThose make you not the wealthiest, but with a steady life.",
+        "image": null,
+        "next_node": "trader_68_choice",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_68_choice": {
+        "id": "trader_68_choice",
+        "date": "68 B.C.",
+        "text": "You accumulated wealth.\nYou grew in scale.\nYou find politics in markets.\nYou learned quickly that merchants are not in charge.\nPeople who control laws, taxes, and the city can ruin you quickly.\nFrom here, you decide:",
+        "image": null,
+        "next_node": null,
+        "choices": [
+          {
+            "label": "Enter politics",
+            "next_node": "trader_politics_67"
+          },
+          {
+            "label": "Quit while you’re ahead",
+            "next_node": "trader_quit_67"
+          }
+        ],
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_politics_67": {
+        "id": "trader_politics_67",
+        "date": "67 B.C.",
+        "text": "You build relationships.\nWith a politician, with aristocrats, with the higher class.\nYou gift them.\nYou flatter them.\nYou place yourself lower.\nYou tolerate.",
+        "image": null,
+        "next_node": "trader_politics_64",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_politics_64": {
+        "id": "trader_politics_64",
+        "date": "64 B.C.",
+        "text": "You know Catiline.\nYou learned his plan.\nYou decided.\nThis is the time you claim power.",
+        "image": null,
+        "next_node": "trader_politics_63",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_politics_63": {
+        "id": "trader_politics_63",
+        "date": "63 B.C.",
+        "text": "You failed.\nThe shine of power blinded your father’s words.\nYou urged too much.\nToo much so that it backfires on you.\nYou lost everything.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "trader_gambler_ending"
+      },
+      "trader_quit_67": {
+        "id": "trader_quit_67",
+        "date": "67 B.C.",
+        "text": "You’ve accumulated enough.\nEnough wealth to free you from working for the rest of your life.\nYou aren’t eager for power.\nYou stepped away from politics, as you see the dangers in it.",
+        "image": null,
+        "next_node": "trader_quit_66",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_quit_66": {
+        "id": "trader_quit_66",
+        "date": "66 B.C.",
+        "text": "You returned to your town.\nYou bought land.\nA lot of land.\nYou lend them.\nYou earn from them.",
+        "image": null,
+        "next_node": "trader_quit_63",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "trader_quit_63": {
+        "id": "trader_quit_63",
+        "date": "63 B.C.",
+        "text": "Living in a huge house, you heard what happened in the city.\nYou felt lucky for leaving politics.\nYou enjoyed your life.\nYou spent time with your family.\nInside your town,\nYou are the success.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "trader_wise_merchant_ending"
+      }
+    }
+  },
+  "poet": {
+    "display_name": "Poet",
+    "intro_title": "The Poet",
+    "starting_node": "poet_origin_choice",
+    "nodes": {
+      "poet_origin_choice": {
+        "id": "poet_origin_choice",
+        "date": "Origin",
+        "text": "Fortuna does not only decide what you become.\nShe also decides where you begin.\n\nWill you be born poor, with only your voice and memory to carry you?\nOr will you be born rich, protected by family, education, and name?",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": [
+          {
+            "label": "Poor scenario: The Wanderer",
+            "next_node": "poet_poor_start"
+          },
+          {
+            "label": "Rich scenario: The Poet",
+            "next_node": "poet_rich_start"
+          }
+        ],
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_start": {
+        "id": "poet_poor_start",
+        "date": "106 B.C.",
+        "text": "You are born in a suburb of Rome.\nYour family lives by labor.\nYour father works in the sun, and your mother earns some small earnings.",
+        "image": null,
+        "next_node": "poet_poor_98",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_98": {
+        "id": "poet_poor_98",
+        "date": "98 B.C.",
+        "text": "You grew with love.\nYour mother values your education.\nShe taught you enough letters.\nYou read, you memorize, you recite.\nYour education is not as polished as that of the wealthy.\nBut you're smart, you work hard, and you enjoy.",
+        "image": null,
+        "next_node": "poet_poor_93",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_93": {
+        "id": "poet_poor_93",
+        "date": "93 B.C.",
+        "text": "God blessed you with a good memory and a beautiful voice.\nPeople know you in town, and people recognize you by voice.\nYou sing to your mother, and she praises.\nYou sing to your father, but he’s too tired to enjoy.\nYour blessed voice took away your talent in body.\nYou are skinny, and you barely work.\nYou see your father frowning sometimes.\nAnd you understand what it means.",
+        "image": null,
+        "next_node": "poet_poor_90",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_90": {
+        "id": "poet_poor_90",
+        "date": "90 B.C.",
+        "text": "A wealthier family in your town invited you.\nThey are meeting with a famous merchant from the city.\nYou joined their dinner.\nBut you stand aside.\nYou sing to entertain, which is the reason you’re invited.\nYou see ignorance in their eyes.\nBoth the host and the guest.\nYou kept singing.\nBecause this is your first earning.\nBecause you want to make your father proud.\nBecause you know your voice is why you matter.",
+        "image": null,
+        "next_node": "poet_poor_86",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_86": {
+        "id": "poet_poor_86",
+        "date": "86 B.C.",
+        "text": "You left your town.\nYou brought your savings.\nLittle, but enough.\nYour destiny is the city.\nYou wish to earn fame.\nYou wish to be recognized.\nYou wish to be remembered.",
+        "image": null,
+        "next_node": "poet_poor_84",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_84": {
+        "id": "poet_poor_84",
+        "date": "84 B.C.",
+        "text": "You started to write some short lines on your own.\nYou still sing, and you still recite.\nPeople are more generous in the city.\nYou wish to live by your pen more than by your mouth.\nYou wander from place to place and hope one day you can settle down.\nYou are sometimes invited to a rich house.\nBy there you sell your voice.\nYou hate to see their face.\nThey show no respect.",
+        "image": null,
+        "next_node": "poet_poor_82",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_82": {
+        "id": "poet_poor_82",
+        "date": "82 B.C.",
+        "text": "Sulla’s victory fills Rome with fear.\nYou see people dying on the streets and in houses.\nSurvival is silence.\nThe city taught you.\nPolitics destroys lives faster than hunger.",
+        "image": null,
+        "next_node": "poet_poor_75",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_75": {
+        "id": "poet_poor_75",
+        "date": "75 B.C.",
+        "text": "Your savings ran out.\nLivelihood forces you to wander on the streets.\nYou sing.\nDrinking song.\nFlattering verse.\nYou hate these.\nYou admire Odyssey.\nYou admire the Iliad.\nYou wish to write epics.\nBut your fate seems destined since your birth.",
+        "image": null,
+        "next_node": "poet_poor_63",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_63": {
+        "id": "poet_poor_63",
+        "date": "63 B.C.",
+        "text": "The city is filled with tension and rumor.\nCicero with his ambition.\nPeople argue over Catiline.\nThey are shaping history.",
+        "image": null,
+        "next_node": "poet_poor_62",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_62": {
+        "id": "poet_poor_62",
+        "date": "62 B.C.",
+        "text": "You squeeze into the crowd.\nCicero speaks for Archias.\nYou hear enough.\nYou know enough.\nYou understand enough.\nRome praises poets.\nBut the poets who win respect are those who stand by a patron.\nPoetry is art.\nBut poetry in Rome is already polluted with politics.",
+        "image": null,
+        "next_node": "poet_poor_59",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_poor_59": {
+        "id": "poet_poor_59",
+        "date": "59 B.C.",
+        "text": "The winter is deadly to you.\nNo more hosts, no more guests.\nCold weakens you.\nYou closed your eyes.\nYou are too tired of Rome.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "poet_artist_ending"
+      },
+      "poet_rich_start": {
+        "id": "poet_rich_start",
+        "date": "106 B.C.",
+        "text": "You were born in Rome.\nYour crying echoes in your huge house.\nA servant took over you.\nHe showed you to your father.\nHis face glows with happiness.",
+        "image": null,
+        "next_node": "poet_rich_98",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_98": {
+        "id": "poet_rich_98",
+        "date": "98 B.C.",
+        "text": "You went to a private school.\nYou like your grammaticus and rhetor.\nThey told your parents about your talent.\n“A gift by god,”\nthey said.\nYou read aloud well.\nYou learned to admire style.\nYou speak with confidence.\nYou are eloquent.",
+        "image": null,
+        "next_node": "poet_rich_93",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_93": {
+        "id": "poet_rich_93",
+        "date": "93 B.C.",
+        "text": "You recite in front of your father.\nHis eyes shine with praise.\nYou recite in front of your teachers.\nTheir eyes shine with pride.\nYou recite in front of the guests.\nThey praised.\nBut you didn’t know for your poem or for your father.",
+        "image": null,
+        "next_node": "poet_rich_86",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_86": {
+        "id": "poet_rich_86",
+        "date": "86 B.C.",
+        "text": "The republic is shaken by war.\nYour family is your best protection.\nYou devote yourself to literature.\nNo politics, no dangers.",
+        "image": null,
+        "next_node": "poet_rich_84",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_84": {
+        "id": "poet_rich_84",
+        "date": "84 B.C.",
+        "text": "You are brought to connections.\nYou are in a circle where educated men admire literature like you.\nYou speak about literature.\nYou enjoy discussions.\nThose who are admired by scholars,\nlike Archias, become people you get in touch with.\nYou are not a performer.\nNeither are you someone who lives off his work.\nYou are a poet.",
+        "image": null,
+        "next_node": "poet_rich_77",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_77": {
+        "id": "poet_rich_77",
+        "date": "77 B.C.",
+        "text": "You become a master of poetry.\nYou discuss them seriously.\nYou design verse.\nYou start shaping your work.\nYou start building your fame.\nYou start to find your worth.",
+        "image": null,
+        "next_node": "poet_rich_68",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_68": {
+        "id": "poet_rich_68",
+        "date": "68 B.C.",
+        "text": "The society taught you something more about poetry.\nIt’s not only a form of art.\nIt’s not only an expression of feeling.\nIt’s a tool, a weapon, something powerful enough.\nYou see its connection with politics.",
+        "image": null,
+        "next_node": "poet_rich_62",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_62": {
+        "id": "poet_rich_62",
+        "date": "62 B.C.",
+        "text": "You attend when Cicero defends Archias.\nNot just a listener.\nYou held a place among audiences.\nYou learned more about poetry.\nPro Archia is not only a speech.\nIt connects literature with power.\nYou remembered it as your tool.",
+        "image": null,
+        "next_node": "poet_rich_59",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_59": {
+        "id": "poet_rich_59",
+        "date": "59 B.C.",
+        "text": "Catullus brought a new fashion.\nQuicker, sharper, more polished.\nYou admire his style.\nStill, you remained in the classic way.",
+        "image": null,
+        "next_node": "poet_rich_56",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_56": {
+        "id": "poet_rich_56",
+        "date": "56 B.C.",
+        "text": "You have seen enough of how fame works.\nYou pursue literature still.\nYour family savings are enough for the rest of your life.\nYou are respected in your poetry group.\nSome of your verses are copied.\nSome of your verses are recited.\nYour name is remembered.",
+        "image": null,
+        "next_node": "poet_rich_49",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "poet_rich_49": {
+        "id": "poet_rich_49",
+        "date": "49 B.C.",
+        "text": "Caesar started the civil war.\nThe tension in the city tired you.\nYou’ve seen enough.\nYou’ve heard enough.\nYou’ve been through enough.\nIllness caught you with your old age.\nYour family gave you a decent burial.\nSome of your works are preserved.\nYou are respected, but are you famous?",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "poet_somebody_nobody_ending"
+      }
+    }
+  },
+  "soldier": {
+    "display_name": "Soldier",
+    "intro_title": "The Soldier",
+    "starting_node": "soldier_start",
+    "nodes": {
+      "soldier_start": {
+        "id": "soldier_start",
+        "date": "A.D. 87",
+        "text": "You were born in northern Italy.\nYour family has warmth.\nYou don’t have to starve.\nBut you can’t expect more.",
+        "image": null,
+        "next_node": "soldier_104",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_104": {
+        "id": "soldier_104",
+        "date": "A.D. 104",
+        "text": "You volunteer for the army.\nYou felt honored to fight for Trajan.\nYou are strong enough.\nThey promise you awards.\nBut you know that will be far away.",
+        "image": null,
+        "next_node": "soldier_105",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_105": {
+        "id": "soldier_105",
+        "date": "A.D. 105",
+        "text": "The training is hard.\nIt’s also boring and repetitive.\nPhysical training.\nWeapon training.\nYou keep formation, build camp, and most importantly, obey orders.\nOrder is everything.\nYou sleep in tents, eat by rations, and share burdens.",
+        "image": null,
+        "next_node": "soldier_106",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_106": {
+        "id": "soldier_106",
+        "date": "A.D. 106",
+        "text": "You joined the war against Dacia.\nIt is your first time on the battlefield.\nYou are excited, but a little scared.\nBut Rome doesn’t allow cowardice.\nYou didn’t fight like hero.\nYou hold formation, obey orders, and trust men beside you.\nVictory came, less heroic, less exciting.",
+        "image": null,
+        "next_node": "soldier_107",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_107": {
+        "id": "soldier_107",
+        "date": "A.D. 107",
+        "text": "The victory didn’t bring you much honor and awards.\nThose went to emperors and generals.\nYou gained pretty much nothing.\nBut you see your peers with scars, limps, and wounds.\nYou didn’t feel like you were part of it, even though you were.",
+        "image": null,
+        "next_node": "soldier_111",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_111": {
+        "id": "soldier_111",
+        "date": "A.D. 111",
+        "text": "You become a minor leader.\nStill, you are under many layers of commands.\nYou obey orders and teach newbies to obey orders.\nYou are not a great man.\nThe real great man is above you.\nAll you do is listen to his order.",
+        "image": null,
+        "next_node": "soldier_123",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_123": {
+        "id": "soldier_123",
+        "date": "A.D. 123",
+        "text": "You receive an honorable discharge.\nThey recognize you as a veteran.\nKids ask you about fights.\nYou would share with them how you all conquered.\nBut do you actually enjoy those?",
+        "image": null,
+        "next_node": "soldier_124",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_124": {
+        "id": "soldier_124",
+        "date": "A.D. 124",
+        "text": "You settle in a town.\nThe money is not enough to keep you healthy, but it is enough to support your life.\nSome lands.\nA house.\nMore tranquil in your life.",
+        "image": null,
+        "next_node": "soldier_136",
+        "choices": null,
+        "random_choices": null,
+        "is_ending": false,
+        "achievement": null
+      },
+      "soldier_136": {
+        "id": "soldier_136",
+        "date": "A.D. 136",
+        "text": "You suffered from wounds in war.\nThey hurt you badly at night.\nOne day, you are tired.\nTired from scenes flashing at night.\nTired of living your life.\nYou closed your eyes.\nYour burial was respected and honored.",
+        "image": null,
+        "next_node": null,
+        "choices": null,
+        "random_choices": null,
+        "is_ending": true,
+        "achievement": "soldier_honored_roman_life_ending"
+      }
+    }
+  }
+}

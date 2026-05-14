@@ -1,0 +1,57 @@
+{
+  "blacksmith_legacy_ending": {
+    "title": "Legacy",
+    "description": "You passed down your craft, but repeated the hardness that shaped you.",
+    "role": "Blacksmith"
+  },
+  "blacksmith_craft_with_love_ending": {
+    "title": "Craft with Love",
+    "description": "You treated your apprentice like a son, and your name lived through care instead of control.",
+    "role": "Blacksmith"
+  },
+  "builder_rome_stepping_stone_ending": {
+    "title": "A Rome Stepping Stone",
+    "description": "You built pieces of Rome, but Rome never truly belonged to you.",
+    "role": "Builder"
+  },
+  "fighter_legend_ending": {
+    "title": "The Legend",
+    "description": "You followed Spartacus, fought Rome, and died without surrender.",
+    "role": "Gladiator"
+  },
+  "fighter_coward_ending": {
+    "title": "The Coward",
+    "description": "You kneeled to Rome, but Rome still made an example of you.",
+    "role": "Gladiator"
+  },
+  "fighter_warrior_ending": {
+    "title": "A Warrior?",
+    "description": "You survived the rebellion by staying behind, only to die nameless in the arena.",
+    "role": "Gladiator"
+  },
+  "trader_gambler_ending": {
+    "title": "The Gambler",
+    "description": "You mistook political danger for opportunity, and the gamble consumed your fortune.",
+    "role": "Merchant"
+  },
+  "trader_wise_merchant_ending": {
+    "title": "Wise Merchant",
+    "description": "You left Rome’s dangerous politics behind and turned wealth into a stable life.",
+    "role": "Merchant"
+  },
+  "poet_artist_ending": {
+    "title": "The Artist",
+    "description": "You had a voice, memory, and longing for art, but Rome gave respect only to poets with patrons.",
+    "role": "Poet"
+  },
+  "poet_somebody_nobody_ending": {
+    "title": "Somebody? Nobody?",
+    "description": "You lived as a respected poet, but even preservation could not answer whether fame made you truly known.",
+    "role": "Poet"
+  },
+  "soldier_honored_roman_life_ending": {
+    "title": "Honored Roman Life",
+    "description": "You served Rome, survived war, and lived out your final years as an honored veteran.",
+    "role": "Soldier"
+  }
+}

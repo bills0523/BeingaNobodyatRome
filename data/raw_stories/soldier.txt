@@ -1,0 +1,109 @@
+TITLE: The Soldier
+ROLE: soldier
+START: soldier_start
+
+---
+DATE: A.D. 87
+ID: soldier_start
+TEXT:
+You were born in northern Italy.
+Your family has warmth.
+You don’t have to starve.
+But you can’t expect more.
+NEXT: soldier_104
+
+---
+DATE: A.D. 104
+ID: soldier_104
+TEXT:
+You volunteer for the army.
+You felt honored to fight for Trajan.
+You are strong enough.
+They promise you awards.
+But you know that will be far away.
+NEXT: soldier_105
+
+---
+DATE: A.D. 105
+ID: soldier_105
+TEXT:
+The training is hard.
+It’s also boring and repetitive.
+Physical training.
+Weapon training.
+You keep formation, build camp, and most importantly, obey orders.
+Order is everything.
+You sleep in tents, eat by rations, and share burdens.
+NEXT: soldier_106
+
+---
+DATE: A.D. 106
+ID: soldier_106
+TEXT:
+You joined the war against Dacia.
+It is your first time on the battlefield.
+You are excited, but a little scared.
+But Rome doesn’t allow cowardice.
+You didn’t fight like hero.
+You hold formation, obey orders, and trust men beside you.
+Victory came, less heroic, less exciting.
+NEXT: soldier_107
+
+---
+DATE: A.D. 107
+ID: soldier_107
+TEXT:
+The victory didn’t bring you much honor and awards.
+Those went to emperors and generals.
+You gained pretty much nothing.
+But you see your peers with scars, limps, and wounds.
+You didn’t feel like you were part of it, even though you were.
+NEXT: soldier_111
+
+---
+DATE: A.D. 111
+ID: soldier_111
+TEXT:
+You become a minor leader.
+Still, you are under many layers of commands.
+You obey orders and teach newbies to obey orders.
+You are not a great man.
+The real great man is above you.
+All you do is listen to his order.
+NEXT: soldier_123
+
+---
+DATE: A.D. 123
+ID: soldier_123
+TEXT:
+You receive an honorable discharge.
+They recognize you as a veteran.
+Kids ask you about fights.
+You would share with them how you all conquered.
+But do you actually enjoy those?
+NEXT: soldier_124
+
+---
+DATE: A.D. 124
+ID: soldier_124
+TEXT:
+You settle in a town.
+The money is not enough to keep you healthy, but it is enough to support your life.
+Some lands.
+A house.
+More tranquil in your life.
+NEXT: soldier_136
+
+---
+DATE: A.D. 136
+ID: soldier_136
+TEXT:
+You suffered from wounds in war.
+They hurt you badly at night.
+One day, you are tired.
+Tired from scenes flashing at night.
+Tired of living your life.
+You closed your eyes.
+Your burial was respected and honored.
+ENDING: true
+ACHIEVEMENT: soldier_honored_roman_life_ending

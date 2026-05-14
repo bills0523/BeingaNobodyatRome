@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Be a Nobody at Rome</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <main id="app" aria-live="polite">
+        <section id="menu-screen" class="screen active menu-screen">
+          <div class="menu-panel">
+            <p class="eyebrow">A lowly life in the ancient city</p>
+            <h1>Be a Nobody at Rome</h1>
+            <div class="menu-actions">
+              <button id="start-button" class="primary-button">Start Game</button>
+              <button id="achievements-button" class="secondary-button">Achievements</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="wheel-screen" class="screen wheel-screen" aria-labelledby="wheel-title" hidden>
+          <button class="back-button" data-screen="menu">Back</button>
+          <div class="wheel-layout">
+            <div class="wheel-copy">
+              <p class="eyebrow">Fortuna decides</p>
+              <h2 id="wheel-title">Spin for your Roman life</h2>
+              <p class="screen-note">Six ordinary paths wait behind the wheel.</p>
+            </div>
+
+            <div class="wheel-stage" aria-label="Role selection wheel">
+              <div class="wheel-pointer" aria-hidden="true"></div>
+              <div id="role-wheel" class="role-wheel">
+                <span style="--i: 0">Gladiator</span>
+                <span style="--i: 1">Poet</span>
+                <span style="--i: 2">Blacksmith</span>
+                <span style="--i: 3">Merchant</span>
+                <span style="--i: 4">Soldier</span>
+                <span style="--i: 5">Builder</span>
+              </div>
+            </div>
+
+            <div class="wheel-controls">
+              <button id="spin-button" class="primary-button">Spin</button>
+              <p id="spin-result" class="spin-result" aria-live="assertive"></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="story-screen" class="screen story-screen" aria-labelledby="story-role-title" hidden>
+          <header class="story-header">
+            <button class="back-button" data-screen="menu">Main Menu</button>
+            <div>
+              <p id="story-role-label" class="eyebrow"></p>
+              <h2 id="story-role-title"></h2>
+            </div>
+          </header>
+
+          <article id="story-log" class="story-log" aria-live="polite"></article>
+
+          <div id="story-controls" class="story-controls"></div>
+        </section>
+
+        <section id="achievements-screen" class="screen achievements-screen" aria-labelledby="achievements-title" hidden>
+          <header class="simple-header">
+            <button class="back-button" data-screen="menu">Back to Main Menu</button>
+            <div>
+              <p class="eyebrow">Records of small lives</p>
+              <h2 id="achievements-title">Achievements</h2>
+            </div>
+          </header>
+          <div id="achievement-list" class="achievement-list"></div>
+        </section>
+      </main>
+
+      <div id="achievement-toast" class="achievement-toast" role="status" aria-live="polite">
+        <div class="toast-icon">★</div>
+        <div>
+          <p class="toast-label">Achievement Unlocked</p>
+          <h3 id="toast-title"></h3>
+          <p id="toast-description"></p>
+        </div>
+      </div>
+
+      <audio id="achievement-sound" preload="auto">
+        <source src="static/sounds/achievement.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <script src="static/js/game.js"></script>
+  </body>
+</html>

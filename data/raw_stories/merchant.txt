@@ -1,0 +1,191 @@
+TITLE: The Trader
+ROLE: merchant
+START: trader_start
+
+---
+DATE: 110 B.C.
+ID: trader_start
+TEXT:
+You are born in a town south of Rome.
+You will not starve, but there isn’t spare in your family.
+NEXT: trader_100
+
+---
+DATE: 100 B.C.
+ID: trader_100
+TEXT:
+You start working as a boy.
+You carry sacks.
+You load carts.
+You earn what you want.
+As your father cannot give them to you.
+NEXT: trader_96
+
+---
+DATE: 96 B.C.
+ID: trader_96
+TEXT:
+Your father taught you how to accumulate wealth.
+You learned how to contain your desire.
+You learn how wealth works.
+The more you accumulate, the more you can play with it.
+NEXT: trader_92
+
+---
+DATE: 92 B.C.
+ID: trader_92
+TEXT:
+You started your “business.”
+You buy produce from the cheap.
+You carry it to where it sells better.
+Oil, fish, cloth, tools.
+You are not yet a great merchant.
+You earn little or nothing most of the time.
+Your father supports you, not financially, but mentally.
+NEXT: trader_88
+
+---
+DATE: 88 B.C.
+ID: trader_88
+TEXT:
+War and unease threaten your trade.
+Roads are less safe.
+Prices are unstable.
+A bad decision costs you months of gain.
+You learn risks.
+You learn profit.
+NEXT: trader_84
+
+---
+DATE: 84 B.C.
+ID: trader_84
+TEXT:
+You become more cautious.
+You suppress your ambition.
+You distinguish between gambling and trading.
+NEXT: trader_80
+
+---
+DATE: 80 B.C.
+ID: trader_80
+TEXT:
+You have enough to run an actual business.
+You hire transport.
+You bargain with scale.
+You deal with people directly.
+You are part of the business.
+Your decision matters.
+NEXT: trader_76
+
+---
+DATE: 76 B.C.
+ID: trader_76
+TEXT:
+You start actions in Rome.
+The city is the challenge.
+The scale scares you.
+What was big for the town can’t even be seen by Rome.
+NEXT: trader_75
+
+---
+DATE: 75 B.C.
+ID: trader_75
+TEXT:
+You learned more about business.
+In Rome, reputation is all.
+Relationships and trust didn’t come from nowhere.
+You sometimes get nowhere.
+But you are patient enough.
+NEXT: trader_72
+
+---
+DATE: 72 B.C.
+ID: trader_72
+TEXT:
+You stand firm in the city.
+You understand what is essential in Rome.
+Food, transport, supply.
+Those make you not the wealthiest, but with a steady life.
+NEXT: trader_68_choice
+
+---
+DATE: 68 B.C.
+ID: trader_68_choice
+TEXT:
+You accumulated wealth.
+You grew in scale.
+You find politics in markets.
+You learned quickly that merchants are not in charge.
+People who control laws, taxes, and the city can ruin you quickly.
+From here, you decide:
+CHOICES:
+- Enter politics => trader_politics_67
+- Quit while you’re ahead => trader_quit_67
+
+---
+DATE: 67 B.C.
+ID: trader_politics_67
+TEXT:
+You build relationships.
+With a politician, with aristocrats, with the higher class.
+You gift them.
+You flatter them.
+You place yourself lower.
+You tolerate.
+NEXT: trader_politics_64
+
+---
+DATE: 64 B.C.
+ID: trader_politics_64
+TEXT:
+You know Catiline.
+You learned his plan.
+You decided.
+This is the time you claim power.
+NEXT: trader_politics_63
+
+---
+DATE: 63 B.C.
+ID: trader_politics_63
+TEXT:
+You failed.
+The shine of power blinded your father’s words.
+You urged too much.
+Too much so that it backfires on you.
+You lost everything.
+ENDING: true
+ACHIEVEMENT: trader_gambler_ending
+
+---
+DATE: 67 B.C.
+ID: trader_quit_67
+TEXT:
+You’ve accumulated enough.
+Enough wealth to free you from working for the rest of your life.
+You aren’t eager for power.
+You stepped away from politics, as you see the dangers in it.
+NEXT: trader_quit_66
+
+---
+DATE: 66 B.C.
+ID: trader_quit_66
+TEXT:
+You returned to your town.
+You bought land.
+A lot of land.
+You lend them.
+You earn from them.
+NEXT: trader_quit_63
+
+---
+DATE: 63 B.C.
+ID: trader_quit_63
+TEXT:
+Living in a huge house, you heard what happened in the city.
+You felt lucky for leaving politics.
+You enjoyed your life.
+You spent time with your family.
+Inside your town,
+You are the success.
+ENDING: true
+ACHIEVEMENT: trader_wise_merchant_ending

@@ -1,0 +1,100 @@
+TITLE: The Builder
+ROLE: builder
+START: builder_start
+
+---
+DATE: A.D. 86
+ID: builder_start
+TEXT:
+You are born in a small house on the edge of the city.
+Your father is a farmer.
+The grain of his work only allows your family not to starve.
+NEXT: builder_95
+
+---
+DATE: A.D. 95
+ID: builder_95
+TEXT:
+You show strength as a boy.
+You help your father in the field.
+Carrying water, plowing dirt, planting seeds.
+You also help your uncle build things.
+Carrying stones, concrete, and heavy weights.
+NEXT: builder_100
+
+---
+DATE: A.D. 100
+ID: builder_100
+TEXT:
+Your uncle once needed your help building a room for school.
+You look at the children learning letters by teachers.
+You couldn’t understand the signs.
+You couldn’t understand words.
+These seem privileges to you.
+What you learn is how to lift, how to build, taught by your uncle.
+NEXT: builder_103
+
+---
+DATE: A.D. 103
+ID: builder_103
+TEXT:
+You learned some techniques.
+Mostly about materials, building balance, or fitting things in.
+Those small skills make you worth slightly more.
+Still, you are paid little, but what can you do?
+NEXT: builder_111
+
+---
+DATE: A.D. 111
+ID: builder_111
+TEXT:
+You worked in many buildings.
+But those don’t belong to you.
+They pay you just enough to live, but sometimes you starve too.
+You could never earn enough to stop working.
+Because that’s how Rome works.
+NEXT: builder_116
+
+---
+DATE: A.D. 116
+ID: builder_116
+TEXT:
+You enjoyed drinking.
+You find it fun in thermopolia.
+You couldn’t join the table of small gamble.
+Because you know the money is for your stomach.
+NEXT: builder_124
+
+---
+DATE: A.D. 124
+ID: builder_124
+TEXT:
+Your body starts to tell you to stop.
+Your shoulders ache, and you move slow.
+You are not that old.
+But age starts killing you.
+NEXT: builder_137
+
+---
+DATE: A.D. 137
+ID: builder_137
+TEXT:
+You meet a younger laborer.
+He follows you for work.
+You showed him how to lift with less effort.
+You showed him how to align for good.
+But for yourself, you sense something bad.
+NEXT: builder_138
+
+---
+DATE: A.D. 138
+ID: builder_138
+TEXT:
+You are too old to lift.
+You are too old to work.
+You are too old to live.
+The last night you spent was in thermopolia.
+You get an extra drink.
+You sleep on the road.
+ENDING: true
+ACHIEVEMENT: builder_rome_stepping_stone_ending

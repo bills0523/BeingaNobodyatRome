@@ -1,0 +1,234 @@
+TITLE: The Blacksmith
+ROLE: blacksmith
+START: blacksmith_start
+
+---
+DATE: A.D. 89
+ID: blacksmith_start
+TEXT:
+You are born in a poor village in central Italy.
+You are the second son, the fourth child.
+The poor land of your father cannot support all of you.
+NEXT: blacksmith_100
+
+---
+DATE: A.D. 100
+ID: blacksmith_100
+TEXT:
+Your parents discussed.
+Staying is not an option for you.
+Ostia is where you will be sent.
+Not quite an opportunity.
+You did not know what you would be facing.
+You can’t blame your family.
+The extra mouth is a burden.
+You kept your tears.
+You farewell your family.
+You step on your own journey at the age of 11.
+NEXT: blacksmith_101
+
+---
+DATE: A.D. 101
+ID: blacksmith_101
+TEXT:
+It feels like humiliation.
+You carry charcoal.
+You work the bellows.
+You scoop water.
+All these dirty works.
+You obey, obey, and obey.
+NEXT: blacksmith_103
+
+---
+DATE: A.D. 103
+ID: blacksmith_103
+TEXT:
+You are blessed.
+Your master values your diligence.
+Luckily, you are smart enough.
+You learn to hold tongs.
+You read heat by color.
+You have a chance to craft small things.
+A lock, a tool, a door hinge.
+You enjoyed this.
+NEXT: blacksmith_104
+
+---
+DATE: A.D. 104
+ID: blacksmith_104
+TEXT:
+You worship Vulcan.
+You joined Vulcanalia.
+You learned to pray.
+He will bless you.
+NEXT: blacksmith_105
+
+---
+DATE: A.D. 105
+ID: blacksmith_105
+TEXT:
+You are trusted more.
+You realized.
+Any mistakes, misses, or wrong timing cost your master.
+You are talented.
+You never miss.
+NEXT: blacksmith_106
+
+---
+DATE: A.D. 106
+ID: blacksmith_106
+TEXT:
+Trajan’s victory brought opportunities.
+They want ironworks.
+They want too much, so you see a chance.
+Over the years, you learned skills.
+How to craft, how to repair, how to adjust.
+You earned freedom with your savings.
+Your master looked at you with pride.
+But also with some worry.
+You established your own blacksmith.
+For the first time, your labor brings gold to your own pocket.
+NEXT: blacksmith_109
+
+---
+DATE: A.D. 109
+ID: blacksmith_109
+TEXT:
+You expanded your shop.
+You would do anything.
+You fit wagons, make tools, craft swords.
+You wouldn’t know how much blood your sword will touch.
+You wouldn’t care.
+You didn’t know how your family was.
+You didn’t know whether to hate them or appreciate them.
+NEXT: blacksmith_112
+
+---
+DATE: A.D. 112
+ID: blacksmith_112
+TEXT:
+You embraced your first apprentice.
+You see yourself in his immature face.
+You were stunned for a second.
+When he was sent by his family.
+A different feeling emerges inside you.
+A little bit bitter, a little bit sad.
+You decide to treat him:
+CHOICES:
+- Like how your master treats you => blacksmith_master_path_114
+- Like he is your son => blacksmith_son_path_114
+
+---
+DATE: A.D. 114
+ID: blacksmith_master_path_114
+TEXT:
+He learned quickly, even better than you.
+He learned how to read color.
+He learned how to finish a blade.
+You still sent labor work, the dirty one, to him.
+You see him sweating, suffering, but never complaining.
+You felt a little uneasy.
+You shook away that thought.
+You kept working on the immersive orders.
+NEXT: blacksmith_master_path_121
+
+---
+DATE: A.D. 121
+ID: blacksmith_master_path_121
+TEXT:
+He left, as you did when you were young.
+He opened a shop right across from you.
+You didn’t worry, because half of his shop belongs to you, too.
+You did less and less work.
+No more blades, no more wagons, just some casual things only.
+NEXT: blacksmith_master_path_129
+
+---
+DATE: A.D. 129
+ID: blacksmith_master_path_129
+TEXT:
+You felt the furnace smoke in your lungs.
+It burns.
+You can no longer lift, you can no longer craft.
+You felt death near you.
+NEXT: blacksmith_master_path_130
+
+---
+DATE: A.D. 130
+ID: blacksmith_master_path_130
+TEXT:
+Your student buries you.
+You have no family, no children, no one.
+He puts a hammer next to you.
+He blesses you with the honor of Vulcan.
+ENDING: true
+ACHIEVEMENT: blacksmith_legacy_ending
+
+---
+DATE: A.D. 114
+ID: blacksmith_son_path_114
+TEXT:
+You gave him some dirty work, but not that much.
+You didn’t use him as your master used you.
+You taught him skills.
+How to read fire.
+How to read timing.
+How to craft pieces.
+You sometimes see a smile on his face.
+That’s what was not on you.
+NEXT: blacksmith_son_path_116
+
+---
+DATE: A.D. 116
+ID: blacksmith_son_path_116
+TEXT:
+He learned quickly, really quickly.
+He has even more talent than you do.
+He crafts better than you.
+Faster, neater, stronger.
+You gave your trust in him.
+NEXT: blacksmith_son_path_120
+
+---
+DATE: A.D. 120
+ID: blacksmith_son_path_120
+TEXT:
+You work less and less.
+He stayed at your shop.
+He works with passion.
+He enjoyed crafting.
+NEXT: blacksmith_son_path_121
+
+---
+DATE: A.D. 121
+ID: blacksmith_son_path_121
+TEXT:
+You stopped crafting.
+You work with numbers.
+You are backing up.
+NEXT: blacksmith_son_path_125
+
+---
+DATE: A.D. 125
+ID: blacksmith_son_path_125
+TEXT:
+Illness and furnace smoke didn’t catch you like other experienced masters.
+You sometimes still wander in your store, but you no longer work.
+He worked well, really well.
+You see him taking apprentices and treating them well.
+You felt accomplished.
+It’s like seeing your son having a family.
+You felt pride.
+NEXT: blacksmith_son_path_130
+
+---
+DATE: A.D. 130
+ID: blacksmith_son_path_130
+TEXT:
+With the blessing of Vulcan, you closed your eyes.
+He hosts your burial.
+With respect, with gratitude, and with love.
+He put aside your hammer.
+Your name stays with your store forever.
+ENDING: true
+ACHIEVEMENT: blacksmith_craft_with_love_ending

@@ -1,0 +1,299 @@
+TITLE: The Poet
+ROLE: poet
+START: poet_origin_choice
+
+---
+DATE: Origin
+ID: poet_origin_choice
+TEXT:
+Fortuna does not only decide what you become.
+She also decides where you begin.
+
+Will you be born poor, with only your voice and memory to carry you?
+Or will you be born rich, protected by family, education, and name?
+RANDOM_CHOICES:
+- Poor scenario: The Wanderer => poet_poor_start
+- Rich scenario: The Poet => poet_rich_start
+
+---
+DATE: 106 B.C.
+ID: poet_poor_start
+TEXT:
+You are born in a suburb of Rome.
+Your family lives by labor.
+Your father works in the sun, and your mother earns some small earnings.
+NEXT: poet_poor_98
+
+---
+DATE: 98 B.C.
+ID: poet_poor_98
+TEXT:
+You grew with love.
+Your mother values your education.
+She taught you enough letters.
+You read, you memorize, you recite.
+Your education is not as polished as that of the wealthy.
+But you're smart, you work hard, and you enjoy.
+NEXT: poet_poor_93
+
+---
+DATE: 93 B.C.
+ID: poet_poor_93
+TEXT:
+God blessed you with a good memory and a beautiful voice.
+People know you in town, and people recognize you by voice.
+You sing to your mother, and she praises.
+You sing to your father, but he’s too tired to enjoy.
+Your blessed voice took away your talent in body.
+You are skinny, and you barely work.
+You see your father frowning sometimes.
+And you understand what it means.
+NEXT: poet_poor_90
+
+---
+DATE: 90 B.C.
+ID: poet_poor_90
+TEXT:
+A wealthier family in your town invited you.
+They are meeting with a famous merchant from the city.
+You joined their dinner.
+But you stand aside.
+You sing to entertain, which is the reason you’re invited.
+You see ignorance in their eyes.
+Both the host and the guest.
+You kept singing.
+Because this is your first earning.
+Because you want to make your father proud.
+Because you know your voice is why you matter.
+NEXT: poet_poor_86
+
+---
+DATE: 86 B.C.
+ID: poet_poor_86
+TEXT:
+You left your town.
+You brought your savings.
+Little, but enough.
+Your destiny is the city.
+You wish to earn fame.
+You wish to be recognized.
+You wish to be remembered.
+NEXT: poet_poor_84
+
+---
+DATE: 84 B.C.
+ID: poet_poor_84
+TEXT:
+You started to write some short lines on your own.
+You still sing, and you still recite.
+People are more generous in the city.
+You wish to live by your pen more than by your mouth.
+You wander from place to place and hope one day you can settle down.
+You are sometimes invited to a rich house.
+By there you sell your voice.
+You hate to see their face.
+They show no respect.
+NEXT: poet_poor_82
+
+---
+DATE: 82 B.C.
+ID: poet_poor_82
+TEXT:
+Sulla’s victory fills Rome with fear.
+You see people dying on the streets and in houses.
+Survival is silence.
+The city taught you.
+Politics destroys lives faster than hunger.
+NEXT: poet_poor_75
+
+---
+DATE: 75 B.C.
+ID: poet_poor_75
+TEXT:
+Your savings ran out.
+Livelihood forces you to wander on the streets.
+You sing.
+Drinking song.
+Flattering verse.
+You hate these.
+You admire Odyssey.
+You admire the Iliad.
+You wish to write epics.
+But your fate seems destined since your birth.
+NEXT: poet_poor_63
+
+---
+DATE: 63 B.C.
+ID: poet_poor_63
+TEXT:
+The city is filled with tension and rumor.
+Cicero with his ambition.
+People argue over Catiline.
+They are shaping history.
+NEXT: poet_poor_62
+
+---
+DATE: 62 B.C.
+ID: poet_poor_62
+TEXT:
+You squeeze into the crowd.
+Cicero speaks for Archias.
+You hear enough.
+You know enough.
+You understand enough.
+Rome praises poets.
+But the poets who win respect are those who stand by a patron.
+Poetry is art.
+But poetry in Rome is already polluted with politics.
+NEXT: poet_poor_59
+
+---
+DATE: 59 B.C.
+ID: poet_poor_59
+TEXT:
+The winter is deadly to you.
+No more hosts, no more guests.
+Cold weakens you.
+You closed your eyes.
+You are too tired of Rome.
+ENDING: true
+ACHIEVEMENT: poet_artist_ending
+
+---
+DATE: 106 B.C.
+ID: poet_rich_start
+TEXT:
+You were born in Rome.
+Your crying echoes in your huge house.
+A servant took over you.
+He showed you to your father.
+His face glows with happiness.
+NEXT: poet_rich_98
+
+---
+DATE: 98 B.C.
+ID: poet_rich_98
+TEXT:
+You went to a private school.
+You like your grammaticus and rhetor.
+They told your parents about your talent.
+“A gift by god,”
+they said.
+You read aloud well.
+You learned to admire style.
+You speak with confidence.
+You are eloquent.
+NEXT: poet_rich_93
+
+---
+DATE: 93 B.C.
+ID: poet_rich_93
+TEXT:
+You recite in front of your father.
+His eyes shine with praise.
+You recite in front of your teachers.
+Their eyes shine with pride.
+You recite in front of the guests.
+They praised.
+But you didn’t know for your poem or for your father.
+NEXT: poet_rich_86
+
+---
+DATE: 86 B.C.
+ID: poet_rich_86
+TEXT:
+The republic is shaken by war.
+Your family is your best protection.
+You devote yourself to literature.
+No politics, no dangers.
+NEXT: poet_rich_84
+
+---
+DATE: 84 B.C.
+ID: poet_rich_84
+TEXT:
+You are brought to connections.
+You are in a circle where educated men admire literature like you.
+You speak about literature.
+You enjoy discussions.
+Those who are admired by scholars,
+like Archias, become people you get in touch with.
+You are not a performer.
+Neither are you someone who lives off his work.
+You are a poet.
+NEXT: poet_rich_77
+
+---
+DATE: 77 B.C.
+ID: poet_rich_77
+TEXT:
+You become a master of poetry.
+You discuss them seriously.
+You design verse.
+You start shaping your work.
+You start building your fame.
+You start to find your worth.
+NEXT: poet_rich_68
+
+---
+DATE: 68 B.C.
+ID: poet_rich_68
+TEXT:
+The society taught you something more about poetry.
+It’s not only a form of art.
+It’s not only an expression of feeling.
+It’s a tool, a weapon, something powerful enough.
+You see its connection with politics.
+NEXT: poet_rich_62
+
+---
+DATE: 62 B.C.
+ID: poet_rich_62
+TEXT:
+You attend when Cicero defends Archias.
+Not just a listener.
+You held a place among audiences.
+You learned more about poetry.
+Pro Archia is not only a speech.
+It connects literature with power.
+You remembered it as your tool.
+NEXT: poet_rich_59
+
+---
+DATE: 59 B.C.
+ID: poet_rich_59
+TEXT:
+Catullus brought a new fashion.
+Quicker, sharper, more polished.
+You admire his style.
+Still, you remained in the classic way.
+NEXT: poet_rich_56
+
+---
+DATE: 56 B.C.
+ID: poet_rich_56
+TEXT:
+You have seen enough of how fame works.
+You pursue literature still.
+Your family savings are enough for the rest of your life.
+You are respected in your poetry group.
+Some of your verses are copied.
+Some of your verses are recited.
+Your name is remembered.
+NEXT: poet_rich_49
+
+---
+DATE: 49 B.C.
+ID: poet_rich_49
+TEXT:
+Caesar started the civil war.
+The tension in the city tired you.
+You’ve seen enough.
+You’ve heard enough.
+You’ve been through enough.
+Illness caught you with your old age.
+Your family gave you a decent burial.
+Some of your works are preserved.
+You are respected, but are you famous?
+ENDING: true
+ACHIEVEMENT: poet_somebody_nobody_ending

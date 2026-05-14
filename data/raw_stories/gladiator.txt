@@ -1,0 +1,238 @@
+TITLE: The Fighter
+ROLE: gladiator
+START: fighter_start
+
+---
+DATE: 83 B.C.
+ID: fighter_start
+TEXT:
+You are born into a family in a small tribe.
+Your mother luckily did not die during childbirth.
+Your father, looking at you as a boy, laughed from the bottom of his heart.
+You heard him talking to people around him.
+You don’t understand what he was saying, but you can see the pride in his eyes.
+NEXT: fighter_80
+
+---
+DATE: 80 B.C.
+ID: fighter_80
+TEXT:
+You can barely talk; the old man in the tribe taught you words.
+You enjoyed it.
+One day, you run into your father’s meeting.
+You see his face frowning, and you hear some words.
+You didn’t fully understand, but you see the anger in his eyes.
+NEXT: fighter_76
+
+---
+DATE: 76 B.C.
+ID: fighter_76
+TEXT:
+Your tribe was invaded.
+Your father, teacher, cousins, and most people you know have died.
+You see them pierced by arrows, or chopped by swords, all covered in blood.
+You see your mother lying on the ground, facing down.
+You nudged her arm, trying to wake her up.
+You see something shiny on your left.
+You lift your head up, and you see a Roman soldier.
+He pointed his spear at you, and you looked him in the eye.
+He put his shield down and picked you up by your neck.
+You didn’t cry.
+You were brought to the Roman troops.
+NEXT: fighter_75
+
+---
+DATE: 75 B.C.
+ID: fighter_75
+TEXT:
+Your year in the Roman army wasn’t easy.
+You belong to calones.
+You need to carry wood for their needs and do all the dirty work.
+They yell, they whip, and you see a traitor, your “friend” in calones, died midway through his escape.
+NEXT: fighter_74
+
+---
+DATE: 74 B.C.
+ID: fighter_74
+TEXT:
+They brought you back to Rome.
+It is a huge city, and you see houses twice as big as the one you lived in.
+You are auctioned.
+You stand on the stage, naked.
+The merchants examine you, one by one.
+You felt their touches, and you closed your eyes.
+You felt stabbing pain in your neck.
+You opened your eyes, and you are picked.
+The merchant fancied your muscles.
+He handed you a piece of bread and told you to be a gladiator.
+You listened to him bragging, while wolfing down the piece of bread, you needed it.
+You are sent to the gladiatorial school.
+NEXT: fighter_73_choice
+
+---
+DATE: 73 B.C.
+ID: fighter_73_choice
+TEXT:
+Capua.
+
+You see many men here.
+Gauls, Thracians, and many from different places.
+Some are fierce, some are violent, some only want blood.
+You began training.
+A wooden sword and a crappy shield are all you have.
+You were undefeated.
+Of course you were, or otherwise you would not be alive.
+You meet friends, true friends, the ones you trained with.
+But you also know, at some time, only one of you will die.
+Among your friends, one is named Spartacus.
+He whispered:
+“Do you hate?”
+CHOICES:
+- Yes => fighter_rebellion_73
+- No => fighter_school_72
+
+---
+DATE: 73 B.C.
+ID: fighter_rebellion_73
+TEXT:
+Your plots are discovered.
+There's no more time.
+You all grabbed whatever you could.
+Kitchen knives, spits, sticks.
+You killed your way out.
+You all climbed to Versius.
+You are all surrounded by Roman troops.
+They tried to trap you all with hunger, thirst, and fear.
+You descend a wild vine rope, sending warriors down to the Roman troops at night.
+You all destroyed the camp.
+You see one of the captive familiar.
+Memory stroke you 10 years ago.
+He was the one pushing a dagger into your mom’s heart.
+He begged you for mercy.
+“I’m not Roman, I’m forced to be in the army.”
+You grasped your dagger, and your arm started shaking.
+You cut his throat.
+NEXT: fighter_rebellion_72
+
+---
+DATE: 72 B.C.
+ID: fighter_rebellion_72
+TEXT:
+The leaders do not all agree.
+You followed Spartacus for the passion in his eyes.
+Crixus, a dear leader in the rebellion, is killed.
+You honor him, but you see your future on his dead body.
+NEXT: fighter_rebellion_71_choice
+
+---
+DATE: 71 B.C.
+ID: fighter_rebellion_71_choice
+TEXT:
+Marcus Licinius Crassus took over the Roman troops.
+You felt the war with them tighter, harder, and colder.
+The final battle comes.
+Before it began, Spartacus killed his horse.
+If you all win, he shall gain a better one.
+If you all lose, he will need no one.
+No one is leaving this field alive.
+You clenched your dagger, the one accompanied you since the start.
+You rush toward the Romans with your friends.
+CHOICES:
+- Fight till the end => fighter_legend_ending
+- Kneel to Rome => fighter_coward_ending
+
+---
+DATE: 71 B.C.
+ID: fighter_legend_ending
+TEXT:
+You fight till the end.
+Your body is covered with blood.
+It was an honor.
+You are not a failure.
+ENDING: true
+ACHIEVEMENT: fighter_legend_ending
+
+---
+DATE: 71 B.C.
+ID: fighter_coward_ending
+TEXT:
+You feared.
+You dropped your armor.
+You kneeled to Rome.
+They nailed you on the cross.
+The traitors were shown to the public on the street.
+The cowards were humiliated.
+ENDING: true
+ACHIEVEMENT: fighter_coward_ending
+
+---
+DATE: 73 B.C.
+ID: fighter_school_72
+TEXT:
+You stay inside the wall.
+You fear danger, though now you are still facing it.
+Soon after, you are sold.
+New yard, new trainer, same life.
+NEXT: fighter_school_72_training
+
+---
+DATE: 72 B.C.
+ID: fighter_school_72_training
+TEXT:
+Wooden sword, broken shield.
+Again and again.
+You grow heavy and strong.
+You kill more and more.
+People applaud for the blood on your sword.
+NEXT: fighter_school_71
+
+---
+DATE: 71 B.C.
+ID: fighter_school_71
+TEXT:
+Your trainer shared the bad news.
+Spartacus died with his brothers.
+You mourn for him; the school didn’t.
+You restored.
+Picking up the sword and shield.
+Rome fears the rebels, but the game still goes on.
+NEXT: fighter_school_70
+
+---
+DATE: 70 B.C.
+ID: fighter_school_70
+TEXT:
+You are no legend.
+Winning gives you nothing.
+Besides scars and wounds.
+You saw friends never getting up.
+You see newcomers thrown in.
+NEXT: fighter_school_67
+
+---
+DATE: 67 B.C.
+ID: fighter_school_67
+TEXT:
+The wounds are a burden.
+They hurt, but the fear of death hurts more.
+All the faces in blood appeared at night.
+The next one could be your last one.
+NEXT: fighter_school_66
+
+---
+DATE: 66 B.C.
+ID: fighter_school_66
+TEXT:
+You stand in the amphitheater.
+A man standing on the opposite side.
+He is younger, has no injuries, and is stronger.
+You barely blocked his swing.
+Your attack is no longer sharpened.
+He knocked off your shield.
+You see his blade piercing through your chest.
+You fell.
+The crowd curses.
+The crowd yells.
+You closed your eyes.
+ENDING: true
+ACHIEVEMENT: fighter_warrior_ending
