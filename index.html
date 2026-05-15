@@ -26,12 +26,12 @@
             <div class="wheel-copy">
               <p class="eyebrow">Fortuna decides</p>
               <h2 id="wheel-title">Spin for your Roman life</h2>
-              <p class="screen-note">Six ordinary paths wait behind the wheel.</p>
+              <p class="screen-note">Six ordinary paths wait behind the wheel. Click the wheel to spin.</p>
             </div>
 
             <div class="wheel-stage" aria-label="Role selection wheel">
               <div class="wheel-pointer" aria-hidden="true"></div>
-              <div id="role-wheel" class="role-wheel">
+              <div id="role-wheel" class="role-wheel" role="button" tabindex="0" aria-label="Spin the wheel">
                 <span style="--i: 0">Gladiator</span>
                 <span style="--i: 1">Poet</span>
                 <span style="--i: 2">Blacksmith</span>
@@ -42,7 +42,6 @@
             </div>
 
             <div class="wheel-controls">
-              <button id="spin-button" class="primary-button">Spin</button>
               <p id="spin-result" class="spin-result" aria-live="assertive"></p>
             </div>
           </div>

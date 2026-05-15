@@ -17,10 +17,10 @@ let skipTyping = false;
 let currentRotation = 0;
 let currentScreenName = "menu";
 let screenTransitionTimer = null;
+let isWheelSpinning = false;
 
 const startButton = document.getElementById("start-button");
 const achievementsButton = document.getElementById("achievements-button");
-const spinButton = document.getElementById("spin-button");
 const wheel = document.getElementById("role-wheel");
 const spinResult = document.getElementById("spin-result");
 const storyRoleLabel = document.getElementById("story-role-label");
@@ -80,7 +80,13 @@ function bindControls() {
     showScreen("achievements");
   });
 
-  spinButton.addEventListener("click", spinForRole);
+  wheel.addEventListener("click", spinForRole);
+  wheel.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      spinForRole();
+    }
+  });
 
   document.querySelectorAll("[data-screen]").forEach((button) => {
     button.addEventListener("click", () => showScreen(button.dataset.screen));
@@ -159,7 +165,13 @@ function showScreen(name) {
 }
 
 function spinForRole() {
-  spinButton.disabled = true;
+  if (isWheelSpinning) {
+    return;
+  }
+
+  isWheelSpinning = true;
+  wheel.classList.add("is-spinning");
+  wheel.setAttribute("aria-disabled", "true");
   spinResult.textContent = "The wheel is turning...";
 
   const selectedIndex = Math.floor(Math.random() * roleOrder.length);
@@ -176,7 +188,9 @@ function spinForRole() {
     spinResult.textContent = `Fortuna has chosen: ${role.display_name}`;
 
     window.setTimeout(() => {
-      spinButton.disabled = false;
+      isWheelSpinning = false;
+      wheel.classList.remove("is-spinning");
+      wheel.setAttribute("aria-disabled", "false");
       beginStory(selectedRole);
     }, 1100);
   }, 4300);
