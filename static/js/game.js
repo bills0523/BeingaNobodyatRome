@@ -7,6 +7,7 @@ const screens = {
 
 const roleOrder = ["gladiator", "poet", "blacksmith", "merchant", "soldier", "builder"];
 const achievementStorageKey = "romeNobodyUnlockedAchievements";
+const appRoot = getAppRoot();
 
 let stories = {};
 let achievements = {};
@@ -38,8 +39,8 @@ window.addEventListener("DOMContentLoaded", initGame);
 async function initGame() {
   try {
     [stories, achievements] = await Promise.all([
-      fetchJson(["/data/stories", "../data/stories.json", "data/stories.json"]),
-      fetchJson(["/data/achievements", "../data/achievements.json", "data/achievements.json"])
+      fetchJson([`${appRoot}/data/stories.json`, "/data/stories"]),
+      fetchJson([`${appRoot}/data/achievements.json`, "/data/achievements"])
     ]);
 
     syncUnlockedAchievements();
@@ -49,6 +50,17 @@ async function initGame() {
     document.body.innerHTML = "<main class='load-error'><h1>Game data could not load.</h1><p>Start the Flask server with python app.py and refresh this page.</p></main>";
     console.error(error);
   }
+}
+
+function getAppRoot() {
+  const script = document.currentScript || document.querySelector("script[src*='game.js']");
+
+  if (!script) {
+    return ".";
+  }
+
+  const scriptUrl = new URL(script.src, window.location.href);
+  return scriptUrl.pathname.replace(/\/static\/js\/game\.js$/, "") || "";
 }
 
 async function fetchJson(paths) {
@@ -70,6 +82,20 @@ async function fetchJson(paths) {
 }
 
 function bindControls() {
+  const requiredElements = [
+    startButton,
+    achievementsButton,
+    wheel,
+    spinResult,
+    storyLog,
+    storyControls,
+    screens.story
+  ];
+
+  if (requiredElements.some((element) => !element)) {
+    throw new Error("The page HTML is missing required game elements. Refresh the deployed page and clear the browser cache.");
+  }
+
   startButton.addEventListener("click", () => {
     spinResult.textContent = "";
     showScreen("wheel");
